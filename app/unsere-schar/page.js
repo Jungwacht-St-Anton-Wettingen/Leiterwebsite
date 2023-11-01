@@ -20,7 +20,7 @@ function page() {
   return (
     <div className="container mx-auto px-10 mb-8">
       <div className='bg-white shadow-lg rounded-lg rounded-t-xl p-8 pb-8 mb-8'>
-        <h1 className='text-blue-800 transition duration-700 mb-2 hover:text-blue-600 text-4xl font-bold'>Das ist die Jungwach St.Anton Wettingen</h1>
+        <h1 className='text-blue-800 transition duration-700 mb-2 hover:text-blue-600 text-4xl font-bold'>Das ist die Jungwacht St.Anton Wettingen</h1>
         <h1 className="text-3xl text-blue-400 font-bold mb-3">Unsere Schar</h1>
         <p className='text-2xl mb-0'>Unsere Jungwacht besteht aus einem engagierten <strong>Leitungsteam</strong> und <strong>Gruppen</strong>, in denen sich gleichaltrige Kinder und Jugendliche regelmässig treffen. Gemeinsam gehen wir ins <strong>Lager</strong> und verbringen spannende <strong>Scharanlässe</strong>. </p>
         <ImageSlider images={images} />
