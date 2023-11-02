@@ -25,7 +25,7 @@ const PostDetails = () => {
   const hasMultipleImages = postDetails.featuredImage.length > 1;
 
   return (
-    <div className="container mx-auto px-10 mb-8">
+    <div className="container mx-auto px-0 lg:px-10 mb-8">
       <div className='bg-white shadow-lg rounded-lg p-0 pb-8 mb-8'>
         {hasMultipleImages ? (
           <ImageSlider images={postDetails.featuredImage} />
