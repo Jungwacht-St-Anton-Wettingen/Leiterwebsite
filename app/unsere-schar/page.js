@@ -18,7 +18,7 @@ const images = [
 
 function page() {
   return (
-    <div className="container mx-auto px-10 mb-8">
+    <div className="container mx-auto px-0 lg:px-10 mb-8">
       <div className='bg-white shadow-lg rounded-lg rounded-t-xl p-8 pb-8 mb-8'>
         <h1 className='text-blue-800 transition duration-700 mb-2 hover:text-blue-600 text-4xl font-bold'>Das ist die Jungwacht St.Anton Wettingen</h1>
         <h1 className="text-3xl text-blue-400 font-bold mb-3">Unsere Schar</h1>

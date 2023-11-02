@@ -12,7 +12,7 @@ const LeiterListe = () => {
   
 
   return (
-    <div className="container mx-auto px-10 mb-8">
+    <div className="container mx-auto px-0 lg:px-10 mb-8">
         <div className='bg-white shadow-lg rounded-lg p-8 mb-8'>
             <h1 className='text-blue-800 mb-5 text-4xl font-bold'>Leiter der Jungwacht St.Anton</h1>
             <p className='text-2xl mb-8'>Wir sind junge, motivierte Menschen und ein eingespieltes Team. Ehrenamtlich organisieren wir Freizeitaktivitäten für Kinder und Jugendliche.</p>

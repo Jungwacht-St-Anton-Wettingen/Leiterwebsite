@@ -24,7 +24,7 @@ export default function Page() {
   }, []);
 
   return (
-    <div className="container mx-auto px-10 mb-8">
+    <div className="container mx-auto px-0 lg:px-10 mb-8">
       <div className='bg-white shadow-lg rounded-lg rounded-t-xl p-0 pb-8 mb-8'>
         <iframe
           className='object-top w-full object-cower shadow-lg rounded-t-xl'

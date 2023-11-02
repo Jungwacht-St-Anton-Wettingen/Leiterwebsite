@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function page() {
   return (
-    <div className="container mx-auto px-10 mb-8">
+    <div className="container mx-auto px-0 lg:px-10 mb-8">
         <div className='bg-white shadow-lg rounded-lg p-8 pb-8 mb-8'>
             <h1 className='text-blue-800 transition duration-700 mb-2 hover:text-blue-600 text-4xl font-bold'>Die fünf Grundsätze von Jungwacht Blauring</h1>
             <p className='text-2xl mb-5'>Nach den folgenden Werten richten wir unsere Aktivitäten aus:</p>

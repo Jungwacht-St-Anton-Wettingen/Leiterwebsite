@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export default function Home() {
   return (
-    <div className="container mx-auto px-10 mb-8">
+    <div className="container mx-auto px-0 lg:px-10 mb-8">
       <Interduction></Interduction>
       <RecentPosts></RecentPosts>
       <Zeltvermietung></Zeltvermietung>    
