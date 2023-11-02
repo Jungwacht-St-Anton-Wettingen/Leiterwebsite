@@ -1,6 +1,6 @@
 "use client"
 import React, { useEffect, useState } from 'react';
-import { PostCard, Categories, PostWidget, RecentPosts, Interduction, Zeltvermietung } from '@/components';
+import { RecentPosts, Interduction, Zeltvermietung } from '@/components';
 import { getPosts } from '../services'
 import Link from 'next/link';
 
