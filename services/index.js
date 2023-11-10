@@ -27,7 +27,7 @@ export const getPostDetails = async (slug) => {
 export const getLeiter = async () => {
   const query = gql`
   query MyQuery {
-    leitersConnection(orderBy: gruppe_ASC) {
+    leitersConnection(orderBy: jahrgang_DESC) {
       edges {
         node {
           aemtli
@@ -42,7 +42,7 @@ export const getLeiter = async () => {
         }
       }
     }
-  }  
+  }    
   `;
 
     const result = await request(graphqlAPI, query);

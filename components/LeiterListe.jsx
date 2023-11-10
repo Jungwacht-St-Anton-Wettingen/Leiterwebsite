@@ -32,11 +32,11 @@ const LeiterListe = () => {
                                 <div className='grid grid-cols-1 lg:grid-cols-2'>
                                     <div>
                                         <p className='text-2xl text-black px-3 mb-2'>{'Taufname: '+leiter.node.taufname}</p>
-                                        <p className='text-2xl text-black px-3 mb-2'>{'Gruppe: '+leiter.node.gruppe[0]}</p>
-                                        <p className='text-2xl text-black px-3 mb-2'>{'Ämtli: '+leiter.node.aemtli[0]}</p>
+                                        <p className='text-2xl text-black px-3 mb-2'>{'Gruppe: '+leiter.node.gruppe.join(', ')}</p>
+                                        <p className='text-2xl text-black px-3 mb-2'>{'Ämtli: ' + leiter.node.aemtli.join(', ')}</p>
                                     </div>
                                     <div>
-                                        <p className='text-2xl text-black px-3 mb-5'>{'Kurse: '+leiter.node.kurse[0]}</p>
+                                        <p className='text-2xl text-black px-3 mb-5'>{'Kurse: ' + leiter.node.kurse.join(', ')}</p>
                                         <p className='text-2xl text-black px-3 mb-2'>Email:</p>
                                         <a href={`mailto:${leiter.node.email}`} className='text-2xl text-blue-800 hover:underline underline-offset-2 px-3 cursor-pointer mb-4'>{leiter.node.email}</a>
                                     </div>
