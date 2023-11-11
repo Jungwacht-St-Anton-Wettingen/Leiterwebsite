@@ -25,9 +25,10 @@ export const getPostDetails = async (slug) => {
 };
 
 export const getLeiter = async () => {
+  //first: anpassen wenn mehr leiter vorhanden. leer = es werden nur 10 aufgelistet
   const query = gql`
   query MyQuery {
-    leitersConnection(orderBy: jahrgang_DESC) {
+    leitersConnection(orderBy: jahrgang_DESC, first: 20) {
       edges {
         node {
           aemtli
@@ -42,7 +43,7 @@ export const getLeiter = async () => {
         }
       }
     }
-  }    
+  }  
   `;
 
     const result = await request(graphqlAPI, query);
