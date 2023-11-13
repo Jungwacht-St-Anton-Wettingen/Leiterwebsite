@@ -7,5 +7,3 @@ function page() {
     <Baustelle />
   )
 }
-
-export default page
