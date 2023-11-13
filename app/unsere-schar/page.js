@@ -19,22 +19,22 @@ function page() {
   return (
     <div className="container mx-auto px-0 lg:px-10 mb-8">
       <div className='bg-white shadow-lg rounded-lg rounded-t-xl p-8 pb-8 mb-8'>
-        <h1 className='text-blue-800 transition duration-700 mb-2 hover:text-blue-600 text-4xl font-bold'>Das ist die Jungwacht St.Anton Wettingen</h1>
+        <h1 className='text-blue-800 transition duration-700 mb-2 hover:text-blue-600 text-3xl lg:text-4xl font-bold'>Das ist die Jungwacht St.Anton Wettingen</h1>
         <h1 className="text-3xl text-blue-400 font-bold mb-3">Unsere Schar</h1>
-        <p className='text-2xl mb-0'>Unsere Jungwacht besteht aus einem engagierten <strong>Leitungsteam</strong> und <strong>Gruppen</strong>, in denen sich gleichaltrige Kinder und Jugendliche regelmässig treffen. Gemeinsam gehen wir ins <strong>Lager</strong> und verbringen spannende <strong>Scharanlässe</strong>. </p>
+        <p className='text-lg lg:text-2xl mb-0'>Unsere Jungwacht besteht aus einem engagierten <strong>Leitungsteam</strong> und <strong>Gruppen</strong>, in denen sich gleichaltrige Kinder und Jugendliche regelmässig treffen. Gemeinsam gehen wir ins <strong>Lager</strong> und verbringen spannende <strong>Scharanlässe</strong>. </p>
         <ImageSlider images={images} />
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 p-5 mb-8'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 lg:p-5 mb-8'>
           <div>
             <h1 className="text-3xl text-blue-400 font-bold mb-3">Folge uns</h1>
-            <p className='text-2xl mb-4'>für regelmässige Neuigkeiten und Impressionen:</p>
-            <p className='text-2xl mb-0'>Instagram:</p>
-            <a href='https://www.instagram.com/jungwacht_st.anton/' className='text-2xl text-blue-800 hover:underline underline-offset-2 cursor-pointer mb-4'>Jungwacht St.Anton Wettingen - Instagram</a>
+            <p className='text-lg lg:text-2xl mb-4'>für regelmässige Neuigkeiten und Impressionen:</p>
+            <p className='text-lg lg:text-2xl mb-0'>Instagram:</p>
+            <a href='https://www.instagram.com/jungwacht_st.anton/' className='text-lg lg:text-2xl text-blue-800 hover:underline underline-offset-2 cursor-pointer mb-4'>Jungwacht St.Anton Wettingen - Instagram</a>
             <p className='text-2xl mb-0'>YouTube:</p>
-            <a href='https://www.youtube.com/@jublastantonwettingen' className='text-2xl text-blue-800 hover:underline underline-offset-2 cursor-pointer mb-4'>Jungwacht Blauring St. Anton Wettingen - YouTube</a>
+            <a href='https://www.youtube.com/@jublastantonwettingen' className='text-lg lg:text-2xl text-blue-800 hover:underline underline-offset-2 cursor-pointer mb-4'>Jungwacht Blauring St. Anton Wettingen - YouTube</a>
           </div>
           <div>
             <h1 className="text-3xl text-blue-400 font-bold mb-3">Allgemeine Fragen</h1>
-            <p className='text-2xl mb-8'>Unsere Scharleitung steht gerne zur Verfügung.</p>
+            <p className='text-lg lg:text-2xl mb-8'>Unsere Scharleitung steht gerne zur Verfügung.</p>
             <Link href={`/unsere-schar/kontakt`}>
               <span className="text-2xl font-semibold truncate cursor-pointer transition-all text-white bg-blue-800 hover:bg-blue-600 p-5 rounded-lg hover:shadow-lg">
                 Zum Kontaktformular

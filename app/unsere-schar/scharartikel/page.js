@@ -20,7 +20,7 @@ function page() {
       <div className='bg-white shadow-lg rounded-lg rounded-t-xl p-8 pb-8 mb-8'>
         <h1 className='text-blue-800 transition duration-700 mb-2 hover:text-blue-600 text-4xl font-bold'>Scharartikel</h1>
         <h1 className="text-3xl text-blue-400 font-bold mb-3">Vertrete unseren Verein</h1>
-        <p className='text-2xl mb-0'>Möchtest du deine Farben präsentieren und zeigen, dass du Mitglied von Jungwacht und Blauring St. Anton bist? Dann stehen dir viele Scharartikel zur Verfügung. Sei es ein Pullover, ein T-Shirt und noch vieles mehr. Eine Bestellung abgeben kannst du bei deinen Gruppenleitern. </p>
+        <p className='text-lg lg:text-2xl mb-0'>Möchtest du deine Farben präsentieren und zeigen, dass du Mitglied von Jungwacht und Blauring St. Anton bist? Dann stehen dir viele Scharartikel zur Verfügung. Sei es ein Pullover, ein T-Shirt und noch vieles mehr. Eine Bestellung abgeben kannst du bei deinen Gruppenleitern. </p>
         <ImageSlider images={images} />
         <h1 className='text-blue-800 transition duration-700 mb-2 hover:text-blue-600 text-3xl font-bold'>Preise:</h1>
         <p className='text-2xl mb-0'>Pulli: 35.00</p>
