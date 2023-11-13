@@ -14,7 +14,7 @@ const AccordionSection = ({ title, content }) => {
           .accordion-content {
             max-height: 0;
             overflow: hidden;
-            transition: max-height 0.7s ease-in-out, opacity 0.7s ease-in-out;
+            transition: max-height 0.7s ease-in-out;
           }
 
           .open .accordion-content {
