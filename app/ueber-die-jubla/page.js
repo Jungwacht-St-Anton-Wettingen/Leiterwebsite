@@ -45,7 +45,7 @@ export default function Page() {
                 Die <strong>Aktivitäten</strong> richten sich nach den <strong>Grundsätzen</strong> und{" "}
                 <a className='font-bold text-blue-800 hover:underline underline-offset-2' href='https://www.jubla.ch/ueber-die-jubla/leitbild/haltungen'>Haltungen</a> von der Jubla.
             </p>
-            <div className='grid grid-cols-1 lg:grid-cols-4 gap-8 mt-8'>
+            <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 mt-8'>
                 <div className='bg-white shadow-lg rounded-lg p-0 pb-5'>
                   <div className='relative overflow-hidden shadow-md mb-6'>
                     <img 
