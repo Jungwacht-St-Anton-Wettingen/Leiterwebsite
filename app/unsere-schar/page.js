@@ -23,7 +23,7 @@ function page() {
         <h1 className="text-3xl text-blue-400 font-bold mb-3">Unsere Schar</h1>
         <p className='text-lg lg:text-2xl mb-0'>Unsere Jungwacht besteht aus einem engagierten <strong>Leitungsteam</strong> und <strong>Gruppen</strong>, in denen sich gleichaltrige Kinder und Jugendliche regelmässig treffen. Gemeinsam gehen wir ins <strong>Lager</strong> und verbringen spannende <strong>Scharanlässe</strong>. </p>
         <ImageSlider images={images} />
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 p-5 mb-8'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 lg:p-5 mb-8'>
           <div>
             <h1 className="text-3xl text-blue-400 font-bold mb-3">Folge uns</h1>
             <p className='text-lg lg:text-2xl mb-4'>für regelmässige Neuigkeiten und Impressionen:</p>
