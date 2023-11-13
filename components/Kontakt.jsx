@@ -26,7 +26,7 @@ const Kontakt = () => {
       <h1 className='text-blue-800 mb-0 text-4xl font-bold'>Kontakt</h1>
       <h1 className="text-3xl text-blue-400 font-bold mb-3">Das ist unsere Scharleitung</h1>
       <img 
-        className='object-top  h-full w-full object-cower shadow-lg rounded-t-lg lg:rounded-lg' 
+        className='object-top  h-full w-full object-cower shadow-lg rounded-lg' 
         src={aemtliDetails.foto.url}
         alt={aemtliDetails.leiters[0].name}
         />
