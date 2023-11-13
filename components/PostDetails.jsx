@@ -39,7 +39,7 @@ const PostDetails = () => {
         <div className='px-8'>
             <h1 className='text-blue-800 transition duration-700 mb-2 hover:text-blue-600 text-4xl font-bold'>{postDetails.title}</h1>
             <p className='text-2xl text-blue-800 mb-5'>{moment(postDetails.createdAt).format('DD.MM.YYYY')}</p>
-            <div dangerouslySetInnerHTML={{ __html: postDetails.content.html }} className='text-2xl mb-0'/>
+            <div dangerouslySetInnerHTML={{ __html: postDetails.content.html }} className='text-lg lg:text-2xl mb-0'/>
         </div>
       </div>
     </div>
