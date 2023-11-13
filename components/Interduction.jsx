@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Interduction = () => {
   return (
-    <div className='bg-white shadow-lg rounded-lg p-0 p-8 pb-8 mb-8'>
+    <div className='bg-white shadow-lg rounded-lg p-8 pb-8 mb-8'>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-8'>
           <div>
             <h1 className='text-blue-800 transition duration-700 mb-1 hover:text-blue-600 text-4xl font-bold'>Jungwacht St.Anton Wettingen</h1>
