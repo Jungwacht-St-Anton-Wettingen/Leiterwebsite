@@ -37,7 +37,7 @@ const Footer = () => {
                     <Link prefetch={false} href="mailto:kontakt@stanton.ch">
                         <p className='text-blue-800 mt-5 px-3 underline underline-offset-2'>kontakt@stanton.ch</p>
                     </Link>
-                    <Link prefetch={false} href={'/Impressum-&-Datenschutz'}>
+                    <Link prefetch={false} href={'/footer/imprint'}>
                         <p className='text-blue-800 mt-1 px-3 underline underline-offset-2'>Impressum & Datenschutz</p>
                     </Link>
                 </div>
