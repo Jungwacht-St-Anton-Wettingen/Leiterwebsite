@@ -36,6 +36,11 @@ const Footer = () => {
             </div>
             <br />
             <a href="mailto:kontakt@stanton.ch" className='text-blue-800 mt-1 px-3 underline underline-offset-2'>kontakt@stanton.ch</a>
+            <br />
+            <br />
+            <Link prefetch={false} href={'/Impressum-&-Datenschutz'}>
+                <p className='text-blue-800 mt-1 px-3 underline underline-offset-2'>Impressum & Datenschutz</p>
+            </Link>
         </div>
     </div>
   )
