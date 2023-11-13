@@ -21,7 +21,7 @@ export default function page() {
             ' content={
                 <div className='text-xl'>
                     <p className='mb-3'><strong>Einmal pro Woche</strong> an einem fixen Wochentag findet eine Gruppenstunde statt. Zwischendurch gibt es an Wochenenden Scharanlässe.</p> 
-                    <p className='mb-3'>Das Sommerlager ist unser Jahres­höhepunkt. Meist Sommer, in gewissen Scharen aber auch im Herbst, Winter oder Frühling, geht es gemeinsam für <strong>eine oder zwei Wochen ins Zelt- oder Hauslager</strong>.</p>
+                    <p className='mb-3'>Das Sommerlager ist unser Jahres­höhepunkt. Meist im Sommer, in gewissen Scharen aber auch im Herbst, Winter oder Frühling, geht es gemeinsam für <strong>eine oder zwei Wochen ins Zelt- oder Hauslager</strong>.</p>
                 </div>
              } />
             <AccordionSection title='
