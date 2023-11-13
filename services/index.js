@@ -24,6 +24,32 @@ export const getPostDetails = async (slug) => {
     return result.post;
 };
 
+export const getAemtliDetails = async (aemtliName) => {
+  const query = gql`
+  query MyQuery($aemtliName: String!) {
+    aemtli(where: {name: $aemtliName}) {
+      leiters {
+        aemtli
+        email
+        gruppe
+        kurse
+        name
+        taufname
+      }
+      name
+      foto {
+        url
+      }
+    }
+  }
+      
+  `;
+
+  const result = await request(graphqlAPI, query, { aemtliName });
+
+  return result.aemtli;
+};
+
 export const getLeiter = async () => {
   //first: anpassen wenn mehr leiter vorhanden. leer = es werden nur 10 aufgelistet
   const query = gql`
