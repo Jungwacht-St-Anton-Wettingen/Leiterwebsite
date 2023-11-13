@@ -12,3 +12,4 @@ export { default as ZahlenUndFakten } from './ZahlenUndFakten';
 export { default as ImageSlider } from './ImageSlider';
 export { default as LeiterListe } from './LeiterListe';
 export { default as PostDetails } from './PostDetails';
+export { default as Kontakt } from './Kontakt';
