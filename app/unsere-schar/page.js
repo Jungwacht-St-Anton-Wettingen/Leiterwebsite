@@ -12,8 +12,7 @@ const images = [
   },
   {
     url: '../images/unsere-schar-3.jpeg'
-  },
-  // Add more image URLs as needed
+  }
 ];
 
 function page() {
