@@ -34,6 +34,8 @@ const Footer = () => {
                     </Link>
                 </div>
             </div>
+            <br />
+            <a href="mailto:kontakt@stanton.ch" className='text-blue-800 mt-1 px-3 underline underline-offset-2'>kontakt@stanton.ch</a>
         </div>
     </div>
   )
