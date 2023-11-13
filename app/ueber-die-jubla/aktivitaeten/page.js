@@ -35,7 +35,7 @@ export default function page() {
                 Neben den Gruppenaktivitäten verbringen die Kinder an Anlässen Zeit mit allen Vereinsmitgliedern. Das bedeutet, dass Gross und Klein gemeinsam an einem <strong>vielseitigen Angebot von Aktivitäten</strong> teilhaben.
               </p>
               <p className='text-xl mb-6'>
-              Eine Schnitzeljagd durchs Dorf, ein Kinoabend im Jugendraum, eine Sommer-olympiade auf dem Schulhausareal, ein Laternenmarsch durch den Schnee oder ein Cervelat- und Schlangenbrot-Wettbräteln im Wald. Drei bis vier Mal im Jahr heisst es in der Jubla: Gemeinsam Spass haben, Neues wagen und Grosses schaffen!
+              Eine Schnitzeljagd durchs Dorf, ein Kinoabend im Jugendraum, eine Sommerolympiade auf dem Schulhausareal, ein Laternenmarsch durch den Schnee oder ein Cervelat- und Schlangenbrotwettbräteln im Wald. Drei bis vier Mal im Jahr heisst es in der Jubla: Gemeinsam Spass haben, Neues wagen und Grosses schaffen!
               </p>
               </div>
           </div>
@@ -50,7 +50,7 @@ export default function page() {
               <div>
               <h1 className='text-blue-300 text-3xl mb-4 font-bold'>Lager</h1>
               <p className='text-xl mb-6'>
-                Im Sommerlager verbringen wir 2 tolle Wochen, immer in den ersten zwei Sommerferienwochen. 
+                Jesdes Jahr haben wir im inn den ersten zwei Sommerferienwochen ein <strong>Sommerlager</strong> und verbringen 2 tolle Wochen zusammen. Wir spielen spielen verschidene Spiele und haben miteiander spass. Jedes Sommerlager hat auch immer ein Motto und eine Geschichte und ist jedes Jahr anders. Daneben machen wir auch <strong>Pfingst- oder Winterlager</strong>. Diese sind kürzer und finden nicht jedes Jahr statt. 
               </p>
               </div>
           </div>
