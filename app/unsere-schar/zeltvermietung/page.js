@@ -28,7 +28,7 @@ const EquationSolver = () => {
           />
         </div>
         <div className='text-lg lg:text-2xl'>
-          <h4 className='mb-8'>Unser Esszelt ist in jedem Sommerlager dabei. Das Zelt ist von allen Seiten Wind- und Wettergeschützt und bietet genug Platz für Festbankgarnituren für circa 20 Personen pro Element. Wir vermieten das Zelt bei Interesse auch für private Anlässe und Feste. Nehmen Sie bei Interesse mit uns Kontakt auf über das untenstehende Kontaktformular. Bei Frage melden sie sich bitte bei {' '}
+          <h4 className='mb-8'>Unser Esszelt ist in jedem Sommerlager dabei. Das Zelt ist von allen Seiten Wind- und Wettergeschützt und bietet genug Platz für Festbankgarnituren für circa 20 Personen pro Element. Wir vermieten das Zelt bei Interesse auch für private Anlässe und Feste. Es kann maximal 6x30m gross sein und 200 persohnen beinhalten. Nehmen Sie bei Interesse mit uns Kontakt auf über das untenstehende Kontaktformular. Bei Frage melden sie sich bitte bei {' '}
             <a href="mailto:zeltvermitung@stanton.ch">
               <p className='text-blue-800 inline underline underline-offset-2'>zeltvermitung@stanton.ch</p>
             </a></h4>
@@ -45,7 +45,7 @@ const EquationSolver = () => {
           <h2 className='text-blue-300 text-3xl mb-2 font-bold pt-5'>Preisberechnung</h2>
           <label>
             Elemente (platz für circa 20 Personen, 6x3m):
-            <input type="number" min="1" className='outline outline-blue-800 w-10 ml-2' value={Elements} onChange={(e) => setElements(e.target.value)} />
+            <input type="number" min="1" max="10" className='outline outline-blue-800 w-10 ml-2' value={Elements} onChange={(e) => setElements(e.target.value)} />
           </label>
           <br />
           <label>
@@ -61,6 +61,7 @@ const EquationSolver = () => {
           </p>
         </div>
         <br className='mb-10' />
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjp5DT9LqPPCXem38Pf0YF3DK6nmGjMVXmVR12P_jmsQaZYg/viewform?embedded=true" width="100%" height="500wh">Loading…</iframe>
       <div />
     </div>
   </div>
