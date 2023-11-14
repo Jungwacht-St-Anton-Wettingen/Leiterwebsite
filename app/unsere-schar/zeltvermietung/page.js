@@ -27,9 +27,8 @@ const EquationSolver = () => {
             className='object-top  h-full w-full object-cower shadow-lg rounded-t-lg'
           />
         </div>
-        <div className='text-2xl'>
-
-          <h4>Unser Esszelt ist in jedem Smmerlager dabei. Das Zelt ist von allen Seiten Wind- und Wettergeschützt und bietet genug Platz für Festbankgarnituren für circa 20 Personen pro Element. Wir vermieten das Zelt bei Interesse auch für private Anlässe und Feste. Nehmen Sie bei Interesse mit uns Kontakt auf über das untenstehende Kontaktformular. Bei Frage melden sie sich bitte bei {' '}
+        <div className='text-lg lg:text-2xl'>
+          <h4 className='mb-8'>Unser Esszelt ist in jedem Sommerlager dabei. Das Zelt ist von allen Seiten Wind- und Wettergeschützt und bietet genug Platz für Festbankgarnituren für circa 20 Personen pro Element. Wir vermieten das Zelt bei Interesse auch für private Anlässe und Feste. Nehmen Sie bei Interesse mit uns Kontakt auf über das untenstehende Kontaktformular. Bei Frage melden sie sich bitte bei {' '}
             <a href="mailto:zeltvermitung@stanton.ch">
               <p className='text-blue-800 inline underline underline-offset-2'>zeltvermitung@stanton.ch</p>
             </a></h4>
@@ -44,33 +43,24 @@ const EquationSolver = () => {
             </div>
           </div>
           <h2 className='text-blue-300 text-3xl mb-2 font-bold pt-5'>Preisberechnung</h2>
-          <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 mb-4'>
-            <div>
-              <label>
-                Elemente (Platz für circa 20 Personen):
-                <input type="number" min="1" className='outline outline-blue-800 w-10 ml-2' value={Elements} onChange={(e) => setElements(e.target.value)} />
-              </label>
-              <br />
-              <label>
-                Tage:
-                <input type="number" min="1" className='outline outline-blue-800 w-10 ml-2' value={Days} onChange={(e) => setDays(e.target.value)} />
-              </label>
-            </div>
-            <div>
-              <p>
-              Preis: <strong>{result1}CHF</strong><br />
-              Länge: <strong>{result2}m</strong> <br />
-              Breite: <strong>6m</strong>
-              </p>
-            </div>
-          </div>
+          <label>
+            Elemente (platz für circa 20 Personen, 6x3m):
+            <input type="number" min="1" className='outline outline-blue-800 w-10 ml-2' value={Elements} onChange={(e) => setElements(e.target.value)} />
+          </label>
+          <br />
+          <label>
+            Tage:
+            <input type="number" min="1" className='outline outline-blue-800 w-10 ml-2' value={Days} onChange={(e) => setDays(e.target.value)} />
+          </label>
           <br />
           <button className="text-2xl font-semibold truncate cursor-pointer transition-all text-white bg-blue-800 hover:bg-blue-600 px-2 py-2 my-3 rounded-lg hover:shadow-lg" onClick={handleCalculate}>Berechnen</button>
           <br />
-          
+          <p>
+            Preis: <strong>{result1}CHF</strong><br />
+            Länge: <strong>{result2}m</strong>
+          </p>
         </div>
         <br className='mb-10' />
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjp5DT9LqPPCXem38Pf0YF3DK6nmGjMVXmVR12P_jmsQaZYg/viewform?embedded=true" width="1000vw" height="1000">Loading…</iframe>        </div>
       <div />
     </div>
   );
