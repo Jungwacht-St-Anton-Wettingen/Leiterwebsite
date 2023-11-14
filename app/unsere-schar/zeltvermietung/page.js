@@ -44,7 +44,7 @@ const EquationSolver = () => {
                 <div>
                 <h2 className='text-blue-300 text-3xl mb-2 font-bold pt-5'>Preisberechnung</h2>
                 <label>
-                  Elemente (platz für circa 20 Personen, 6x3m):
+                  Elemente (platz für circa 20 Personen):
                   <input type="number" min="1" className='outline outline-blue-800 w-10 ml-2' value={Elements} onChange={(e) => setElements(e.target.value)} />
                 </label>
                 <br />
