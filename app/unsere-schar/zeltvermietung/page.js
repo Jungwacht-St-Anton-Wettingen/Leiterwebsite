@@ -56,8 +56,8 @@ const EquationSolver = () => {
                   <button className="text-2xl font-semibold truncate cursor-pointer transition-all text-white bg-blue-800 hover:bg-blue-600 px-2 py-2 my-3 rounded-lg hover:shadow-lg" onClick={handleCalculate}>Berechnen</button>
                   <br />
                   <p>
-                    Preis: <strong>{result1}CHF</strong><br />
-                    Länge: <strong>{result2}m</strong>
+                    Preis: <strong>{result1.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "'")}CHF</strong><br />
+                    Länge: <strong>{result2.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "'")}m</strong>
                  </p>
                 </div>
               </div>
