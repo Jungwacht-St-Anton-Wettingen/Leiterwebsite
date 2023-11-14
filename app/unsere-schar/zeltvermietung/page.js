@@ -28,43 +28,46 @@ const EquationSolver = () => {
           />
         </div>
         <div className='text-lg lg:text-2xl'>
-          <h4 className='mb-8'>Unser Esszelt ist in jedem Sommerlager dabei. Das Zelt ist von allen Seiten Wind- und Wettergeschützt und bietet genug Platz für Festbankgarnituren für circa 20 Personen pro Element. Wir vermieten das Zelt bei Interesse auch für private Anlässe und Feste. Es kann maximal 6x30m gross sein und 200 persohnen beinhalten. Nehmen Sie bei Interesse mit uns Kontakt auf über das untenstehende Kontaktformular. Bei Frage melden sie sich bitte bei {' '}
+          <h4 className='mb-8'>Unser Esszelt ist in jedem Sommerlager dabei. Das Zelt ist von allen Seiten Wind- und Wettergeschützt und bietet genug Platz für Festbankgarnituren für circa 20 Personen pro Element. Wir vermieten das Zelt bei Interesse auch für private Anlässe und Feste. Nehmen Sie bei Interesse mit uns Kontakt auf über das untenstehende Kontaktformular. Bei Frage melden sie sich bitte bei {' '}
             <a href="mailto:zeltvermitung@stanton.ch">
               <p className='text-blue-800 inline underline underline-offset-2'>zeltvermitung@stanton.ch</p>
             </a></h4>
           <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 mb-4'>
             <div>
-              <h2 className='text-blue-300 text-3xl font-bold pt-5'>Grösse</h2>
-              <p>Länge: 3m pro Element<br />Breite: 6m<br />Maximalhöhe: 3.3m <br />Minimalhöhe: 2.3m</p>
+              <div>
+                <h2 className='text-blue-300 text-3xl font-bold pt-0'>Grösse</h2>
+                <p>Länge: 3m pro Element<br />Breite: 6m<br />Maximalhöhe: 3.3m <br />Minimalhöhe: 2.3m</p>
+              </div>
+              <div>
+                <h2 className='text-blue-300 text-3xl font-bold pt-5'>Preise</h2>
+                <p className='pb-5'>150 CHF für den ersten Tag pro Element<br />Dann 30 CHF pro Tag und Element<br />Transport: 160CHF <br />Auf- und Abbau inbegriffen</p>
+                <div>
+                <h2 className='text-blue-300 text-3xl mb-2 font-bold pt-5'>Preisberechnung</h2>
+                <label>
+                  Elemente (platz für circa 20 Personen, 6x3m):
+                  <input type="number" min="1" className='outline outline-blue-800 w-10 ml-2' value={Elements} onChange={(e) => setElements(e.target.value)} />
+                </label>
+                <br />
+                  <label>
+                    Tage:
+                    <input type="number" min="1" className='outline outline-blue-800 w-10 ml-2' value={Days} onChange={(e) => setDays(e.target.value)} />
+                  </label>
+                  <br />
+                  <button className="text-2xl font-semibold truncate cursor-pointer transition-all text-white bg-blue-800 hover:bg-blue-600 px-2 py-2 my-3 rounded-lg hover:shadow-lg" onClick={handleCalculate}>Berechnen</button>
+                  <br />
+                  <p>
+                    Preis: <strong>{result1.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "'")}CHF</strong><br />
+                    Länge: <strong>{result2.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "'")}m</strong>
+                 </p>
+                </div>
+              </div>
             </div>
-            <div>
-              <h2 className='text-blue-300 text-3xl font-bold pt-5'>Preise</h2>
-              <p className='pb-5'>150 CHF für den ersten Tag pro Element<br />Dann 30 CHF pro Tag und Element<br />Transport: 160CHF <br />Auf- und Abbau inbegriffen</p>
-            </div>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjp5DT9LqPPCXem38Pf0YF3DK6nmGjMVXmVR12P_jmsQaZYg/viewform?embedded=true" width="100%" height="635">Loading…</iframe>        </div>
           </div>
-          <h2 className='text-blue-300 text-3xl mb-2 font-bold pt-5'>Preisberechnung</h2>
-          <label>
-            Elemente (platz für circa 20 Personen, 6x3m):
-            <input type="number" min="1" max="10" className='outline outline-blue-800 w-10 ml-2' value={Elements} onChange={(e) => setElements(e.target.value)} />
-          </label>
-          <br />
-          <label>
-            Tage:
-            <input type="number" min="1" className='outline outline-blue-800 w-10 ml-2' value={Days} onChange={(e) => setDays(e.target.value)} />
-          </label>
-          <br />
-          <button className="text-2xl font-semibold truncate cursor-pointer transition-all text-white bg-blue-800 hover:bg-blue-600 px-2 py-2 my-3 rounded-lg hover:shadow-lg" onClick={handleCalculate}>Berechnen</button>
-          <br />
-          <p>
-            Preis: <strong>{result1}CHF</strong><br />
-            Länge: <strong>{result2}m</strong>
-          </p>
         </div>
         <br className='mb-10' />
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjp5DT9LqPPCXem38Pf0YF3DK6nmGjMVXmVR12P_jmsQaZYg/viewform?embedded=true" width="100%" height="500wh">Loading…</iframe>
       <div />
     </div>
-  </div>
   );
 };
 
