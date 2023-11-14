@@ -63,6 +63,7 @@ const EquationSolver = () => {
         <br className='mb-10' />
       <div />
     </div>
+  </div>
   );
 };
 
