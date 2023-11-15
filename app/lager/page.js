@@ -17,7 +17,7 @@ function page() {
             />
           </div>
           <div>
-            <p className='ml-3 text-xl'>Jedes Jahr gehe wir in den ersten zwei Sommerferienwochen ins Sommerlager, auch SoLa genannt. Darin verbringen wir zwei Wochen irgendwo in der Schweiz meistens im Zelt draussen in der Natur mit Spiel und Spass. Wir haben immer ein Lagermotto und Folger das ganze Lager einer Geschichte. Dafür müssen wir Rätsel lösen und Hindernisse überwinden. Wir spielen Sportarten und machen riesige Geländespiele. Daneben ruhen wir uns auch aus mit Wellness und Baden. Abends singen wir am Lagerfeuer unser Lagerlieder. Das ganze Lager durch werden wir von einer Küche, bestehend aus Ehemaligen Leitenden, bekocht. </p>
+            <p className='ml-3 text-xl'>Jedes Jahr gehen wir in den ersten zwei Sommerferienwochen ins Sommerlager, auch SoLa genannt. Wir verbringen zwei Wochen irgendwo in der Schweiz, meistens im Zelt draussen in der Natur, mit Spiel und Spass. Wir haben immer ein Lagermotto, das uns mittels einer Geschichte während des Lagers begleitet. Im Rahmen dieser Geschichte müssen wir Rätsel lösen und Hindernisse überwinden. Wir vergnügen uns mit verschiedenen Sportarten und machen riesige Geländespiele. Daneben ruhen wir uns auch aus mit Wellness und baden. Abends singen wir am Lagerfeuer unsere Lagerlieder. Das ganze Lager durch werden wir von einem Küchenteam, bestehend aus ehemaligen Leitenden, bekocht. </p>
           </div>
         </div>
         <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8'>

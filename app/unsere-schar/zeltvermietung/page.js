@@ -28,7 +28,7 @@ const EquationSolver = () => {
           />
         </div>
         <div className='text-lg lg:text-2xl'>
-          <h4 className='mb-8'>Unser Esszelt ist in jedem Sommerlager dabei. Das Zelt ist von allen Seiten Wind- und Wettergeschützt und bietet genug Platz für Festbankgarnituren für circa 20 Personen pro Element. Wir vermieten das Zelt bei Interesse auch für private Anlässe und Feste. Nehmen Sie bei Interesse mit uns Kontakt auf über das untenstehende Kontaktformular. Bei Frage melden sie sich bitte bei {' '}
+          <h4 className='mb-8'>Unser Esszelt ist in jedem Sommerlager mit dabei. Das Zelt ist von allen Seiten wind- und wettergeschützt und bietet genug Platz für Festbankgarnituren für circa 20 Personen pro Element. Wir vermieten das Zelt aber auch für private Anlässe und Feste. Nehmen Sie bei Interesse gerne mit uns Kontakt auf über das untenstehende Kontaktformular. Bei Fragen melden Sie sich bitte bei {' '}
             <a href="mailto:zeltvermitung@stanton.ch">
               <p className='text-blue-800 inline underline underline-offset-2'>zeltvermitung@stanton.ch</p>
             </a></h4>
