@@ -1,4 +1,5 @@
 "use client"
+import { Analytics } from '@vercel/analytics/react';
 import React, { useEffect, useState } from 'react';
 import { Layout } from '../components';
 import './globals.scss'
@@ -15,6 +16,7 @@ export default function RootLayout({ children }) {
         <Layout>
           <div>{children}</div>
         </Layout>
+        <Analytics />
       </body>
     </html>
   )
