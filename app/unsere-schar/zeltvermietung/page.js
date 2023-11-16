@@ -62,7 +62,8 @@ const EquationSolver = () => {
                 </div>
               </div>
             </div>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScjp5DT9LqPPCXem38Pf0YF3DK6nmGjMVXmVR12P_jmsQaZYg/viewform?embedded=true" width="100%" height="635">Loading…</iframe>        </div>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSebaXy6nb9dPZFJeOyJkSFEuFs158-i1jRhAgXStPjhWs9Wzg/viewform?embedded=true" width="100%" height="635">Wird geladen…</iframe>
+            </div>
           </div>
         </div>
         <br className='mb-10' />
