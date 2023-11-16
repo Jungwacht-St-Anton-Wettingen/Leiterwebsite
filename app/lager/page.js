@@ -20,7 +20,7 @@ function page() {
             <p className='ml-3 text-xl'>Jedes Jahr gehen wir in den ersten zwei Sommerferienwochen ins Sommerlager, auch SoLa genannt. Wir verbringen zwei Wochen irgendwo in der Schweiz, meistens im Zelt draussen in der Natur, mit Spiel und Spass. Wir haben immer ein Lagermotto, das uns mittels einer Geschichte während des Lagers begleitet. Im Rahmen dieser Geschichte müssen wir Rätsel lösen und Hindernisse überwinden. Wir vergnügen uns mit verschiedenen Sportarten und machen riesige Geländespiele. Daneben ruhen wir uns auch aus mit Wellness und baden. Abends singen wir am Lagerfeuer unsere Lagerlieder. Das ganze Lager durch werden wir von einem Küchenteam, bestehend aus ehemaligen Leitenden, bekocht. </p>
           </div>
         </div>
-        <div className='grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8'>
+        <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 mt-8'>
           <div className='bg-white shadow-lg rounded-lg p-0 pb-5'>
             <div className='relative overflow-hidden shadow-md mb-6'>
               <img 
@@ -44,8 +44,23 @@ function page() {
                   className='object-top  h-full w-full object-cower shadow-lg rounded-t-lg'
               />
               </div>
-              <p className='text-2xl text-blue-800 mt-5 px-3 pb-11'>PfiLa und WiLa</p>
-              <Link className='px-3' href={'/lager/pfila-wila'}>
+              <p className='text-2xl text-blue-800 mt-5 px-3 pb-11'>PfiLa</p>
+              <Link className='px-3' href={'/lager/pfila'}>
+                  <span className="text-2xl font-semibold truncate cursor-pointer transition-all text-white bg-blue-800 hover:bg-blue-600 px-2 py-1 rounded-lg hover:shadow-lg">
+                      mehr erfahren
+                  </span>
+              </Link>
+          </div>
+          <div className='bg-white shadow-lg rounded-lg p-0 pb-5'>
+            <div className='relative overflow-hidden shadow-md mb-6'>
+              <img 
+                  src='/images/wila.jpg'
+                  alt='Pfila'
+                  className='object-top  h-full w-full object-cower shadow-lg rounded-t-lg'
+              />
+              </div>
+              <p className='text-2xl text-blue-800 mt-5 px-3 pb-11'>WiLa</p>
+              <Link className='px-3' href={'/lager/wila'}>
                   <span className="text-2xl font-semibold truncate cursor-pointer transition-all text-white bg-blue-800 hover:bg-blue-600 px-2 py-1 rounded-lg hover:shadow-lg">
                       mehr erfahren
                   </span>
