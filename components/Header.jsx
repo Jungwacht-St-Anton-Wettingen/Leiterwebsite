@@ -5,7 +5,7 @@ const Categories = [
   { name: 'Aktuelles', slug: 'aktuelles' },
   { name: 'Über die Jubla', slug: 'ueber-die-jubla', subcategories: ['Aktivitäten', 'Häufige Fragen', 'Grundsätze'] },
   { name: 'Unsere Schar', slug: 'unsere-schar', subcategories: ['Leitungsteam', 'Zeltvermietung', 'Scharartikel', 'Kontakt'] },
-  { name: 'Lager', slug: 'lager', subcategories: ['SOLA', 'PFILA WILA'] },
+  { name: 'Lager', slug: 'lager', subcategories: ['SOLA', 'PFILA', 'WILA'] },
   { name: 'Galerie', slug: 'galerie', subcategories: ['Fotos', 'Videos'] },
   { name: 'Agenda', slug: 'agenda' }
 ];
