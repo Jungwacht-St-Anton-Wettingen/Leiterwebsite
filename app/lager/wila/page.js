@@ -21,7 +21,7 @@ function page() {
               />
             </div>
             <div>
-              <p className='text-3xl Ein wmt-5'>Im Winter ist das schönste der Schnee. Um diesen vool auszunutzen gehen wir manchmal im Winter in die Berge. Dort verbringen wir eine Woche oder ein Wochenende mit iglubauen und schlittenfahren und gensiessen den Schnee.</p>
+              <p className='text-3xl Ein wmt-5'>Im Winter ist das schönste der Schnee. Um diesen voll auszunutzen, gehen wir manchmal im Winter in die Berge. Dort verbringen wir eine Woche oder ein Wochenende mit Iglubauen und Schlittenfahren und geniessen den Schnee.</p>
             </div>
           </div>
         </div>

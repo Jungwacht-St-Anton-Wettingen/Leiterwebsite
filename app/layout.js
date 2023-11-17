@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="de">
       <head>
-        <title>Jungwacht St.Anton</title>
+        <title>Jungwacht St. Anton</title>
       </head>
       <body>
         <Layout>

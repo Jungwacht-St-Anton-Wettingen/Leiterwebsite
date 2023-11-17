@@ -21,7 +21,7 @@ function page() {
               />
             </div>
             <div>
-              <p className='text-3xl Ein wmt-5'>Das Pfingstlager ist wie ein kleineres Sommerlager das wir machmal über Pfingste machen. Es ist meist irgendwo um Wettingen herum und hat das gleiche Motto wie das darauffolgenden Sommerlager. Wir übernachten auch in Zelten und spielen den Tag durch Spiele zusammen.</p>
+              <p className='text-3xl Ein wmt-5'>Das Pfingstlager ist wie ein kleineres Sommerlager, das wir manchmal über Pfingsten machen. Es ist meist irgendwo um Wettingen herum und hat das gleiche Motto wie das darauffolgenden Sommerlager. Wir übernachten auch in Zelten und spielen den Tag durch Spiele zusammen.</p>
             </div>
           </div>
         </div>

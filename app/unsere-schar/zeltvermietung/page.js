@@ -28,7 +28,7 @@ const EquationSolver = () => {
           />
         </div>
         <div className='text-lg lg:text-2xl'>
-          <h4 className='mb-8'>Unser Esszelt ist in jedem Sommerlager mit dabei. Das Zelt ist von allen Seiten wind- und wettergeschützt und bietet genug Platz für Festbankgarnituren für circa 20 Personen pro Element. Wir vermieten das Zelt aber auch für private Anlässe und Feste. Nehmen Sie bei Interesse gerne mit uns Kontakt auf über das untenstehende Kontaktformular. Bei Fragen melden Sie sich bitte bei {' '}
+          <h4 className='mb-8'>Unser Esszelt ist in jedem Sommerlager mit dabei. Das Zelt ist von allen Seiten wind- und wettergeschützt und bietet genug Platz für Festbankgarnituren für circa 20 Personen pro Element. Wir vermieten das Zelt aber auch für private Anlässe und Feste. Nehmen Sie bei Interesse gerne mit uns Kontakt auf über das Kontaktformular. Bei Fragen melden Sie sich bitte bei {' '}
             <a href="mailto:zeltvermitung@stanton.ch">
               <p className='text-blue-800 inline underline underline-offset-2'>zeltvermitung@stanton.ch</p>
             </a></h4>
@@ -40,7 +40,7 @@ const EquationSolver = () => {
               </div>
               <div>
                 <h2 className='text-blue-300 text-3xl font-bold pt-5'>Preise</h2>
-                <p className='pb-5'>150 CHF für den ersten Tag pro Element<br />Dann 30 CHF pro Tag und Element<br />Transport: 160CHF <br />Auf- und Abbau inbegriffen</p>
+                <p className='pb-5'>150CHF für den ersten Tag pro Element<br />Dann 30CHF pro Tag und Element<br />Transport: 160CHF <br />Auf- und Abbau inbegriffen</p>
                 <div>
                   <h2 className='text-blue-300 text-3xl mb-2 font-bold pt-5'>Preisberechnung</h2>
                   <label>
