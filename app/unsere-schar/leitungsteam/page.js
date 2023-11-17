@@ -1,5 +1,5 @@
 "use client"
-import { Baustelle, LeiterListe } from '@/components'
+import { LeiterListe } from '@/components'
 import React from 'react'
 
 function page() {

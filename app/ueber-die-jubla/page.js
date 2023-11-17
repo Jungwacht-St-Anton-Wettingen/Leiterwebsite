@@ -31,7 +31,6 @@ export default function Page() {
           height={isSmallScreen ? "287" : "560"}
           src="https://www.youtube.com/embed/5bMcxiFIaNI?si=EflYUK-RVj5d2NLN&amp;controls=0"
           title="YouTube video player"
-          frameBorder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowFullScreen
         ></iframe>
