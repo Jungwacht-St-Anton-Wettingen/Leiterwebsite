@@ -42,12 +42,12 @@ const EquationSolver = () => {
                 <h2 className='text-blue-300 text-3xl font-bold pt-5'>Preise</h2>
                 <p className='pb-5'>150 CHF für den ersten Tag pro Element<br />Dann 30 CHF pro Tag und Element<br />Transport: 160CHF <br />Auf- und Abbau inbegriffen</p>
                 <div>
-                <h2 className='text-blue-300 text-3xl mb-2 font-bold pt-5'>Preisberechnung</h2>
-                <label>
-                  Elemente (platz für circa 20 Personen):
-                  <input type="number" min="1" className='outline outline-blue-800 w-10 ml-2' value={Elements} onChange={(e) => setElements(e.target.value)} />
-                </label>
-                <br />
+                  <h2 className='text-blue-300 text-3xl mb-2 font-bold pt-5'>Preisberechnung</h2>
+                  <label>
+                    Elemente (platz für circa 20 Personen):
+                    <input type="number" min="1" className='outline outline-blue-800 w-10 ml-2' value={Elements} onChange={(e) => setElements(e.target.value)} />
+                  </label>
+                  <br />
                   <label>
                     Tage:
                     <input type="number" min="1" className='outline outline-blue-800 w-10 ml-2' value={Days} onChange={(e) => setDays(e.target.value)} />
@@ -63,12 +63,12 @@ const EquationSolver = () => {
               </div>
             </div>
             <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSebaXy6nb9dPZFJeOyJkSFEuFs158-i1jRhAgXStPjhWs9Wzg/viewform?embedded=true" width="100%" height="635">Wird geladen…</iframe>
-            </div>
           </div>
         </div>
-        <br className='mb-10' />
-      <div />
-    </div>
+      </div>
+      <br className='mb-10' />
+    <div />
+  </div>
   );
 };
 
