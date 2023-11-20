@@ -3,7 +3,7 @@ import { Counter } from '.'
 
 const ZahlenUndFakten = () => {
   return (
-    <div className='bg-white shadow-lg rounded-lg p-0 p-8 pb-8 mb-8'>
+    <div className='bg-white shadow-lg rounded-lg p-8 pb-8 mb-8'>
         <h1 className='text-blue-800 mb-0 text-3xl font-bold'>Zahlen und Fakten</h1>
         <h1 className="text-2xl text-blue-400 font-bold mb-8">über die Jubla</h1>
         <div className='grid grid-cols-1 lg:grid-cols-3 gap-8 mb-8'>

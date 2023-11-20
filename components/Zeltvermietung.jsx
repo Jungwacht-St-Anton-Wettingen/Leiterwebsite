@@ -14,7 +14,7 @@ const Zeltvermietung = () => {
                 />
             </div>
             <div>
-              <h1 className='text-blue-800 transition duration-700 mb-1 hover:text-blue-600 text-4xl font-bold mb-4'>Festzelt gefällig?</h1>
+              <h1 className='text-blue-800 transition duration-700 hover:text-blue-600 text-4xl font-bold mb-4'>Festzelt gefällig?</h1>
               <p className='text-lg mb-6'>
                 Seit Jahren vermieten wir unser Festzelt für Anlässe aller Art.
               </p>
