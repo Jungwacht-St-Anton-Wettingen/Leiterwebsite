@@ -19,7 +19,7 @@ export const getPostDetails = async (slug) => {
     }    
     `;
 
-    const result = await request(graphqlAPI, query, { slug });
+    const result = await request(graphqlAPI, query, { slug }, { cacheTime: 60 });
 
     return result.post;
 };
@@ -46,7 +46,7 @@ export const getAemtliDetails = async (name) => {
   
   `;
 
-  const result = await request(graphqlAPI, query, { name });
+  const result = await request(graphqlAPI, query, { name }, { cacheTime: 60 });
 
   return result.aemtli;
 };
@@ -75,7 +75,7 @@ export const getLeiter = async () => {
   }  
   `;
 
-    const result = await request(graphqlAPI, query);
+    const result = await request(graphqlAPI, query, { cacheTime: 60 });
 
     return result.leitersConnection.edges;
 };
@@ -103,7 +103,7 @@ export const getRecentPosts = async () => {
   }
   `;
 
-  const result = await request(graphqlAPI, query);
+  const result = await request(graphqlAPI, query, { cacheTime: 60 });
 
   return result.postsConnection.edges;
 };
