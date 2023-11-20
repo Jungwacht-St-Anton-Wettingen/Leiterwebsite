@@ -70,7 +70,7 @@ const Interduction = () => {
                   className='object-top  h-full w-full object-cower shadow-lg rounded-t-lg'
                 />
               </div>
-              <p className='text-2xl text-blue-800 mt-5 px-3'>Hier geht's zu</p>
+              <p className='text-2xl text-blue-800 mt-5 px-3'>Hier gehts zu</p>
               <p className='text-2xl font-bold text-blue-800 px-3 pb-3'>unserer Schar</p>
               <Link className='px-3' href={'/unsere-schar'}>
                   <span className="text-2xl font-semibold truncate cursor-pointer transition-all text-white bg-blue-800 hover:bg-blue-600 px-2 py-1 rounded-lg hover:shadow-lg">
