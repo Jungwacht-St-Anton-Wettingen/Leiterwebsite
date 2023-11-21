@@ -42,9 +42,60 @@ const PostDetails = () => {
           <h1 className='text-blue-800 transition duration-700 mb-2 hover:text-blue-600 text-4xl font-bold'>{postDetails.title}</h1>
           <p className='text-2xl text-blue-800 mb-5'>{moment(postDetails.createdAt).format('DD.MM.YYYY')}</p>
           <div dangerouslySetInnerHTML={{ __html: postDetails.content.html }} className='text-lg lg:text-2xl mb-0'/>
-          <br />
-          <br />
-          <div dangerouslySetInnerHTML={{ __html: postDetails.embed }}/>
+          {postDetails.blogpostDownloads && (
+            <div>
+              <br />
+              <br />
+              <div className='grid grid-cols-1 lg:grid-cols-3 gap-8'>
+              {postDetails.blogpostDownloads.map((load) => (
+                  <div key={load.name}>
+                    <Link href={load.fileUrl} passHref>
+                      <button className="text-2xl font-semibold truncate cursor-pointer transition-all text-white bg-blue-800 hover:bg-blue-600 p-5 rounded-lg hover:shadow-lg">
+                        <i className="fas fa-download mr-2"></i> {load.name}
+                      </button>
+                    </Link>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+          {postDetails.embeds.code && (
+            <div>
+              <br />
+              <br />
+              <div dangerouslySetInnerHTML={{ __html: postDetails.embeds[0].code }} className='text-lg lg:text-2xl mb-0'/>
+            </div>
+          )}
+          {postDetails.seitenverweise[0] && (
+            <div>
+              <br />
+              <br />
+              <div className='grid grid-cols-1 lg:grid-cols-4 gap-8'>
+              <div>
+              {postDetails.seitenverweise.map((seite) => (
+                  <div key={seite.title}>
+                      <div className='bg-white shadow-lg rounded-lg p-0 pb-5'>
+                          <div className='relative overflow-hidden shadow-md mb-6'>
+                              <img 
+                                  src={seite.image.url}
+                                  alt={seite.title}
+                                  className='object-top  h-full w-full object-cower shadow-lg rounded-t-lg'
+                                />
+                          </div>
+                          <p className='text-2xl font-bold text-blue-800 px-3'>{seite.title}</p>
+                          <p className='text-2xl text-blue-800 px-3 mb-8'>{seite.excerpt}</p>
+                          <Link className='px-3' href={seite.siteUrl}>
+                              <span className="text-2xl font-semibold truncate cursor-pointer transition-all text-white bg-blue-800 hover:bg-blue-600 px-2 py-1 rounded-lg hover:shadow-lg">
+                                  {seite.buttonText}
+                              </span>
+                          </Link>
+                      </div>
+                  </div>
+              ))}
+              </div>
+            </div>
+            </div>
+          )}
         </div>
       </div>
     </div>
