@@ -15,6 +15,7 @@ export const getPostDetails = async (slug) => {
         content {
           html
         }
+        embed
       }
     }    
     `;

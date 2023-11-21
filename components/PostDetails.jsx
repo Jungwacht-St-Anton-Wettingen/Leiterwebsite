@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
+import Link from 'next/link';
 import moment from 'moment';
 import { usePathname } from 'next/navigation';
 import { getPostDetails } from '@/services'; // Passe den Pfad entsprechend an
 import { ImageSlider } from '.';
+import '@fortawesome/fontawesome-free/css/all.css';
 
 const PostDetails = () => {
   const pathname = usePathname();
@@ -37,9 +39,12 @@ const PostDetails = () => {
           />
         )}
         <div className='px-8'>
-            <h1 className='text-blue-800 transition duration-700 mb-2 hover:text-blue-600 text-4xl font-bold'>{postDetails.title}</h1>
-            <p className='text-2xl text-blue-800 mb-5'>{moment(postDetails.createdAt).format('DD.MM.YYYY')}</p>
-            <div dangerouslySetInnerHTML={{ __html: postDetails.content.html }} className='text-lg lg:text-2xl mb-0'/>
+          <h1 className='text-blue-800 transition duration-700 mb-2 hover:text-blue-600 text-4xl font-bold'>{postDetails.title}</h1>
+          <p className='text-2xl text-blue-800 mb-5'>{moment(postDetails.createdAt).format('DD.MM.YYYY')}</p>
+          <div dangerouslySetInnerHTML={{ __html: postDetails.content.html }} className='text-lg lg:text-2xl mb-0'/>
+          <br />
+          <br />
+          <div dangerouslySetInnerHTML={{ __html: postDetails.embed }}/>
         </div>
       </div>
     </div>
