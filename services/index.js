@@ -16,8 +16,25 @@ export const getPostDetails = async (slug) => {
           html
         }
         embed
+        embeds {
+          code
+        }
+        blogpostDownloads {
+          fileUrl
+          name
+        }
+        seitenverweise {
+          buttonText
+          excerpt
+          image {
+            url
+          }
+          siteUrl
+          title
+        }
       }
-    }    
+    }
+        
     `;
 
     const result = await request(graphqlAPI, query, { slug }, { cacheTime: 60 });
