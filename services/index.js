@@ -24,7 +24,7 @@ export const getPostDetails = async (slug) => {
         }
         seitenverweise {
           buttonText
-          title
+          excerpt
           image {
             url
           }
