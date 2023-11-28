@@ -84,6 +84,8 @@ const PostDetails = () => {
                           </div>
                           <p className='text-2xl font-bold text-blue-800 px-3'>{seite.title}</p>
                           {seite.excerpt && <p className='text-2xl text-blue-800 px-3 mb-8'>{seite.excerpt}</p>}
+                          <br />
+                          <br />
                           <Link className='px-3' href={seite.siteUrl}>
                               <span className="text-2xl font-semibold truncate cursor-pointer transition-all text-white bg-blue-800 hover:bg-blue-600 px-2 py-1 rounded-lg hover:shadow-lg">
                                   {seite.buttonText}
