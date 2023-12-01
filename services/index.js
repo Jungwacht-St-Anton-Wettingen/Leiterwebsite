@@ -41,6 +41,52 @@ export const getPostDetails = async (slug) => {
     return result.post;
 };
 
+export const getLagerDetails = async (typename) => {
+  const query = gql`
+  query MyQuery($typename: String!) {
+    lager(where: {identifier: $typename}) {
+      was
+      wann
+      wo
+      lagerleitung(orderBy: name_ASC, first: 10) {
+        name
+        taufname
+        gruppe
+        aemtli
+        email
+        image {
+          url
+        }
+        kurse
+      }
+      identifier
+      spendelink
+      name
+      anmeldelink
+      jahr
+      findetstatt
+    }
+    lagersConnection(orderBy: jahr_DESC, where: {type: $typename, showSolaBlog: true}) {
+      edges {
+        node {
+          blogSlug
+          jahr
+          blogImage {
+            url
+          }
+        }
+      }
+    }
+  }
+  
+      
+  `;
+
+  const result = await request(graphqlAPI, query, { typename }, { cacheTime: 60 });
+
+  return result;
+};
+
 export const getAemtliDetails = async (name) => {
   const query = gql`
   query MyQuery($name: ID!) {
