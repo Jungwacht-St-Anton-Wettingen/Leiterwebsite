@@ -13,3 +13,6 @@ export { default as ImageSlider } from './ImageSlider';
 export { default as LeiterListe } from './LeiterListe';
 export { default as PostDetails } from './PostDetails';
 export { default as Kontakt } from './Kontakt';
+export { default as Wila } from './Wila';
+export { default as Sola } from './Sola';
+export { default as Pfila } from './Pfila';
