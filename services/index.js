@@ -41,6 +41,42 @@ export const getPostDetails = async (slug) => {
     return result.post;
 };
 
+export const getSolaBlogs = async (slug) => {
+  const query = gql`
+  query MyQuery($slug: String!) {
+    solaBlogsConnection(
+      where: {lager: {blogSlug: $slug}}
+      orderBy: datum_ASC
+      last: 50
+    ) {
+      edges {
+        node {
+          content {
+            html
+          }
+          datum
+          untertitel
+          featuredImage {
+            url
+            width
+            height
+          }
+        }
+      }
+    }
+    lager(where: {blogSlug: $slug}) {
+      name
+      motto
+    }
+  }  
+      
+  `;
+
+  const result = await request(graphqlAPI, query, { slug }, { cacheTime: 60 });
+
+  return result;
+};
+
 export const getLagerDetails = async (typename) => {
   const query = gql`
   query MyQuery($typename: String!) {
@@ -61,7 +97,6 @@ export const getLagerDetails = async (typename) => {
       }
       identifier
       spendelink
-      name
       anmeldelink
       jahr
       findetstatt
@@ -71,6 +106,7 @@ export const getLagerDetails = async (typename) => {
         node {
           blogSlug
           jahr
+          name
           blogImage {
             url
           }

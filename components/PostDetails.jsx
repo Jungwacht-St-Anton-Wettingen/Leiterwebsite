@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import moment from 'moment';
 import { usePathname } from 'next/navigation';
-import { getPostDetails } from '@/services'; // Passe den Pfad entsprechend an
+import { getPostDetails } from '@/services';
 import { ImageSlider } from '.';
 import '@fortawesome/fontawesome-free/css/all.css';
 
