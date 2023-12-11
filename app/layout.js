@@ -4,6 +4,7 @@ import React, { useEffect, useState } from 'react';
 import { Layout } from '../components';
 import './globals.scss'
 import { getPosts } from '@/services';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function RootLayout({ children }) {
 
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
         <title>Jungwacht St. Anton</title>
       </head>
       <body>
+        <SpeedInsights/>
         <Layout>
           <div>{children}</div>
         </Layout>

@@ -11,7 +11,6 @@ import Zoom from "yet-another-react-lightbox/plugins/zoom";
 import 'yet-another-react-lightbox/plugins/thumbnails.css';
 
 
-
 const SolaBlog = () => {
     const pathname = usePathname();
     const slug = usePathname().replace('/lager/', '');
