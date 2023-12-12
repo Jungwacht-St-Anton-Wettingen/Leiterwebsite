@@ -56,7 +56,7 @@ export const getSolaBlogs = async (slug) => {
           }
           datum
           untertitel
-          featuredImage {
+          featuredImage(first: 50) {
             url
             width
             height
@@ -76,6 +76,56 @@ export const getSolaBlogs = async (slug) => {
 
   return result;
 };
+
+export const getGalerieEintraege = async (slug) => {
+  const query = gql`
+    query MyQuery($slug: String!) {
+      galerieEintraegeConnection(
+        first: 50
+        where: { jahr: { jahr: $slug } }
+        orderBy: publishedAt_DESC
+      ) {
+        edges {
+          node {
+            name
+            image(first: 50) {
+              url
+              width
+              height
+            }
+          }
+        }
+      }
+    }
+  `;
+  
+  const result = await request(graphqlAPI, query, { slug }, { cacheTime: 60 });
+
+  return result;
+};
+
+export const getJahre = async () => {
+  const query = gql`
+  query MyQuery {
+    jahreConnection(orderBy: jahr_DESC) {
+      edges {
+        node {
+          jahr
+          galerieEintraege {
+            id
+          }
+        }
+      }
+    }
+  }
+  
+  `;
+
+    const result = await request(graphqlAPI, query, { cacheTime: 60 });
+
+    return result.jahreConnection;
+};
+
 
 export const getLagerDetails = async (typename) => {
   const query = gql`

@@ -17,3 +17,5 @@ export { default as Wila } from './Wila';
 export { default as Sola } from './Sola';
 export { default as Pfila } from './Pfila';
 export { default as SolaBlog } from './SolaBlog';
+export { default as Fotogalerie } from './Fotogalerie';
+export { default as Galerie } from './Galerie';

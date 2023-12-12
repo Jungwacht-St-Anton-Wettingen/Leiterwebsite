@@ -17,7 +17,7 @@ const Interduction = () => {
             <div className='bg-white shadow-lg rounded-lg p-0 pb-5'>
               <div className='relative overflow-hidden shadow-md mb-6'>
                 <img 
-                    src='/images/anlaesse_banner.jpg'
+                    src='../images/anlaesse_banner.jpg'
                     alt='Banner Anlässe'
                     className='object-top  h-full w-full object-cower shadow-lg rounded-t-lg'
                 />
@@ -33,7 +33,7 @@ const Interduction = () => {
             <div className='bg-white shadow-lg rounded-lg p-0 pb-5'>
               <div className='relative overflow-hidden shadow-md mb-6'>
                 <img 
-                  src='/images/lager_gruppenfoto.jpg'
+                  src='../images/lager_gruppenfoto.jpg'
                   alt='Gruppenfoto Lager'
                   className='object-top  h-full w-full object-cower shadow-lg rounded-t-lg'
                 />
@@ -49,7 +49,7 @@ const Interduction = () => {
             <div className='lg:hidden bg-white shadow-lg rounded-lg p-0 pb-5'>
               <div className='relative overflow-hidden shadow-md mb-6'>
                 <img 
-                  src='/images/natur-erleben.jpg'
+                  src='../images/natur-erleben.jpg'
                   alt='über die Jubla'
                   className='object-top  h-full w-full object-cower shadow-lg rounded-t-lg'
                 />
@@ -65,7 +65,7 @@ const Interduction = () => {
             <div className='lg:hidden bg-white shadow-lg rounded-lg p-0 pb-5'>
               <div className='relative overflow-hidden shadow-md mb-6'>
                 <img 
-                  src='/images/unsere-schar-1.jpg'
+                  src='../images/unsere-schar-1.jpg'
                   alt='unsre Schar'
                   className='object-top  h-full w-full object-cower shadow-lg rounded-t-lg'
                 />

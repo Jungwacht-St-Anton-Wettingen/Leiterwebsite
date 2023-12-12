@@ -1,10 +1,10 @@
 "use client"
-import { Baustelle } from '@/components'
+import { Baustelle, Fotogalerie } from '@/components'
 import React from 'react'
 
 function page() {
   return (
-    <Baustelle />
+    <Fotogalerie/>
   )
 }
 
