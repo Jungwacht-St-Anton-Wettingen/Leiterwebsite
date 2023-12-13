@@ -15,7 +15,7 @@ function page() {
                   <div className='bg-white shadow-lg rounded-lg p-0 pb-5'>
                     <div className='relative overflow-hidden shadow-md mb-6'>
                       <img 
-                          src='../images/lager.jpg'
+                          src='../images/Lager.jpg'
                           alt='Banner Lager'
                           className='object-top  h-full w-full object-cower shadow-lg rounded-t-lg'
                       />
@@ -24,7 +24,7 @@ function page() {
                     <p className='text-2xl font-bold text-blue-800 px-3 pb-3'>Jungwacht Blauring St.Anton Wettingen</p>
                     <Link className='px-3' href='https://www.youtube.com/@jublastantonwettingen'>
                         <span className="text-2xl font-semibold truncate cursor-pointer transition-all text-white bg-blue-800 hover:bg-blue-600 px-2 py-1 rounded-lg hover:shadow-lg">
-                          Details
+                          Detais
                         </span>
                       </Link>
                   </div>
