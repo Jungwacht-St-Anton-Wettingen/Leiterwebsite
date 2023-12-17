@@ -19,3 +19,4 @@ export { default as Pfila } from './Pfila';
 export { default as SolaBlog } from './SolaBlog';
 export { default as Fotogalerie } from './Fotogalerie';
 export { default as Galerie } from './Galerie';
+export { default as CalendarSubscription } from './CalendarSubscription';
