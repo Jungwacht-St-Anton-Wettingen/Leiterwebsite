@@ -1,7 +1,9 @@
 BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Jungwacht St.Anton Wettingen//Calendar//EN
+TZID:Europe/Zurich
 X-WR-CALNAME:Jungwacht St.Anton
+X-WR-TIMEZONE:Europe/Zurich
 BEGIN:VEVENT
 SUMMARY:WILA
 DTEND;VALUE=DATE:20240216
