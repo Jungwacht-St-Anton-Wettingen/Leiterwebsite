@@ -15,7 +15,6 @@ const LeiterListe = () => {
     <div className="container mx-auto px-0 lg:px-10 mb-8">
         <div className='bg-white shadow-lg rounded-lg p-8 mb-8'>
             <h1 className='text-blue-800 mb-5 text-4xl font-bold'>Leiter der Jungwacht St.Anton</h1>
-            <p className='text-2xl mb-8'>Wir sind junge, motivierte Menschen und ein eingespieltes Team. Ehrenamtlich organisieren wir Freizeitaktivitäten für Kinder und Jugendliche.</p>
             {leiterListe.map((leiter) => (
                 <div key={leiter.node.name}>
                     <div className='bg-white shadow-xl rounded-xl mb-8 p-0'>
@@ -46,26 +45,6 @@ const LeiterListe = () => {
                     </div>
                 </div>
             ))}
-            <div className='text-2xl text-blue px-3 mb-2'>
-                <div className=''>
-                    <h3 className=' text-blue-800 transition duration-700 mb-1 text-4xl font-bold'>Unsere Aus- und Weiterbildung</h3>
-                    <p className='text-lg lg:text-2xl'>Als Leitungspersonen besuchen wir regelmässig{' '}
-                        <span>  
-                            <a  href="https://www.jubla.ch/ueber-die-jubla/ausbildung-und-begleitung" className='text-lg lg:text-2xl text-blue-800 hover:underline underline-offset-2 cursor-pointer mb-4'>Aus- und Weiterbildungskurse</a>
-                        </span>
-                        , die von Jungwacht Blauring in Zusammenarbeit mit{' '}
-                        <span>
-                            <a href="http://www.jugendundsport.ch/" className='text-lg lg:text-2xl text-blue-800 hover:underline underline-offset-2 cursor-pointer mb-4'>Jugend+Sport (J+S)</a>
-                        </span>{' '}    
-                        und weiteren Partnerorganisationen organisiert werden. Dabei lernen wir, kind- und jugendgerechte Freizeitgestaltung zu organisieren.
-                        </p>
-                    <br />
-                    <h3 className='text-blue-800 transition duration-700 mb-1 text-4xl font-bold'>Unterstützung durch Begleitpersonen</h3>
-                    <p className='text-lg lg:text-2xl'>
-                        Wir erhalten von verschiedenen Begleit­personen Unterstützung. Dazu gehört ein*e <strong>Präses</strong>, eine <strong>Scharbegleitung</strong> und für die Aktivität «Lager» zusätzlich ein*e <strong>J+S-Lagercoach</strong>. Dank unserem <strong>breiten Netzwerk</strong> dürfen wir auf die Unterstützung von vielen weiteren Personen zählen. Neben ehe­maligen Mitgliedern der Schar (frühere Leitungs­personen) stehen auch Personen aus dem näheren Umfeld und der Gemeinde (Pfarrei, Behörde, Schule, andere Vereine usw.) bei Bedarf mit Rat und Tat zur Seite.
-                    </p>
-                </div>
-            </div>
         </div>
     </div>
   )
