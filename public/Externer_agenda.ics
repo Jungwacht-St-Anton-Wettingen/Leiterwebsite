@@ -2,7 +2,7 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//Jungwacht St.Anton Wettingen//Calendar//EN
 TZID:Europe/Zurich
-X-WR-CALNAME:Externe
+X-WR-CALNAME:Externer Kalender
 X-WR-TIMEZONE:Europe/Zurich
 BEGIN:VEVENT
 SUMMARY:Cola-Abend
