@@ -1,6 +1,7 @@
 "use client"
 import Link from 'next/link';
-import React, { useState } from 'react';
+
+import React, { useState, useEffect } from 'react';
 
 const EquationSolver = () => {
   const [Elements, setElements] = useState('');
@@ -8,12 +9,26 @@ const EquationSolver = () => {
   const [result1, setResult1] = useState(160);
   const [result2, setResult2] = useState(0);
 
-  const handleCalculate = () => {
-    const resultValue = 30 * Elements * Days + 150 * Elements + 160;
+  useEffect(() => {
+    const resultValue =
+      30 * (Elements || 1) * (Days || 1) + 120 * (Elements || 1) + 160;
     setResult1(resultValue);
-    const resultValue2 = 3 * Elements;
-    setResult2(resultValue2);
 
+    const resultValue2 = 3 * (Elements || 1);
+    setResult2(resultValue2);
+  }, [Elements, Days]);
+
+  const updateValueAndCalculate = (value, identifier) => {
+    switch (identifier) {
+      case 'Elements':
+        setElements(value);
+        break;
+      case 'Days':
+        setDays(value);
+        break;
+      default:
+        break;
+    }
   };
 
   return (
@@ -45,20 +60,37 @@ const EquationSolver = () => {
                   <h2 className='text-blue-300 text-3xl mb-2 font-bold pt-5'>Preisberechnung</h2>
                   <label>
                     Elemente (platz für circa 20 Personen):
-                    <input type="number" min="1" className='outline outline-blue-800 w-10 ml-2' value={Elements} onChange={(e) => setElements(e.target.value)} />
+                    <div className="flex items-center">
+                      <input
+                        type="range"
+                        min="1"
+                        max="10"
+                        step="1"
+                        value={Elements || 1}
+                        onChange={(e) => updateValueAndCalculate(e.target.value, 'Elements')}
+                        className="text-2xl font-semibold cursor-pointer transition-all text-white bg-blue-800 my-3 rounded-lg mr-2" />
+                      <div className="text-2xl">{Elements || 1}</div>
+                    </div>
                   </label>
-                  <br />
                   <label>
                     Tage:
-                    <input type="number" min="1" className='outline outline-blue-800 w-10 ml-2' value={Days} onChange={(e) => setDays(e.target.value)} />
+                    <div className="flex items-center">
+                      <input
+                        type="range"
+                        min="1"
+                        max="20"
+                        step="1"
+                        value={Days || 1}  // If Days is null, use 1 as the default value
+                        onChange={(e) => updateValueAndCalculate(e.target.value, 'Days')}
+                        className="text-2xl font-semibold cursor-pointer transition-all text-white bg-blue-800 my-3 rounded-lg mr-2"
+                      />
+                      <div className="text-2xl">{Days || 1}</div>
+                    </div>
                   </label>
-                  <br />
-                  <button className="text-2xl font-semibold truncate cursor-pointer transition-all text-white bg-blue-800 hover:bg-blue-600 px-2 py-2 my-3 rounded-lg hover:shadow-lg" onClick={handleCalculate}>Berechnen</button>
-                  <br />
                   <p>
                     Preis: <strong>{result1.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "'")}CHF</strong><br />
                     Länge: <strong>{result2.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "'")}m</strong>
-                 </p>
+                  </p>
                 </div>
               </div>
             </div>
