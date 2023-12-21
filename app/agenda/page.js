@@ -5,7 +5,7 @@ import { CalendarSubscription } from '@/components'
 function page() {
   return (
 <div className="container mx-auto px-0 lg:px-10 mb-8">
-  <div className='bg-white shadow-lg rounded-lg '>
+  <div className='bg-white shadow-lg rounded-lg pb-4'>
     <div className='relative shadow-md mb-4 rounded-t-lg rounded-b-lg'>
       <img
         src='images/Japo_Kinder_2024.png'
