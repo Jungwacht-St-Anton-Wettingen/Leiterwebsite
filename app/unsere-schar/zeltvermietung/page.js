@@ -6,8 +6,8 @@ import React, { useState, useEffect } from 'react';
 const EquationSolver = () => {
   const [Elements, setElements] = useState('');
   const [Days, setDays] = useState('');
-  const [result1, setResult1] = useState(160);
-  const [result2, setResult2] = useState(0);
+  const [result1, setResult1] = useState(310);
+  const [result2, setResult2] = useState(3);
 
   useEffect(() => {
     const resultValue =
