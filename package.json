@@ -30,5 +30,8 @@
     "sass": "^1.69.5",
     "tailwindcss": "^3.3.7",
     "yet-another-react-lightbox": "^3.15.6"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.4.1"
   }
 }
