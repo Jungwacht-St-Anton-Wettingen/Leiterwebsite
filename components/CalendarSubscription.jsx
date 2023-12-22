@@ -8,9 +8,9 @@ const CalendarSubscription = () => {
     const subscribeButton = document.getElementById('subscribeBtn'); // Change to 'subscribeBtn'
 
     if (isAppleDevice) {
-      subscribeButton.href = 'webcal://www.stanton-jungwacht-wettingen.ch/leiter_agenda.ics';
+      subscribeButton.href = 'webcal://stanton.ch/leiter_agenda.ics';
     } else {
-        subscribeButton.href = 'https://www.stanton.ch/leiter_agenda.ics';
+        subscribeButton.href = 'https://stanton.ch/leiter_agenda.ics';
       }
   }, []);
 
