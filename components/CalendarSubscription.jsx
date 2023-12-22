@@ -8,16 +8,10 @@ const CalendarSubscription = () => {
     const subscribeButton = document.getElementById('subscribeBtn'); // Change to 'subscribeBtn'
 
     if (isAppleDevice) {
-      subscribeButton.href = 'webcal://www.stanton-jungwacht-wettingen.ch/agenda.ics';
+      subscribeButton.href = 'webcal://www.stanton-jungwacht-wettingen.ch/leiter_agenda.ics';
     } else {
-      // Check if the user is on a Windows device
-      const isWindowsDevice = /Windows/.test(navigator.userAgent);
-      if (isWindowsDevice) {
-        subscribeButton.href = 'https://calendar.google.com/calendar/u/1?cid=c3RhbnRvbmp1bmd3YWNodEBnbWFpbC5jb20';
-      } else {
-        subscribeButton.href = 'https://www.stanton-jungwacht-wettingen.ch/agenda.ics';
+        subscribeButton.href = 'https://www.stanton.ch/leiter_agenda.ics';
       }
-    }
   }, []);
 
   return (

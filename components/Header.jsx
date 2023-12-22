@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 
 const Categories = [
+  { name: 'Kalender Abonieren', slug: 'agenda' },
   { name: 'Leiter Ämtli und Kurse', slug: 'leitungsteam' }
 ];
 
