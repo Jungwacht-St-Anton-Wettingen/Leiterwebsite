@@ -465,7 +465,7 @@ function page() {
           </div>
           <div className="text-center my-4">
             <a href='images/Japo_Kinder_2024.pdf' download="Japo_Kinder_2024.pdf" className="text-4xl font-semibold truncate cursor-pointer transition-all text-white bg-blue-800 hover:bg-blue-600 px-2 py-1 rounded-lg hover:shadow-lg">
-              Kalender Abbonieren <img src="images/Download icon.png" className="h-8 inline-block ml-2 py-1 align-center" alt="Calendar icon" />
+              Kalender Herunterladen <img src="images/Download icon.png" className="h-8 inline-block ml-2 py-1 align-center" alt="Calendar icon" />
             </a>
           </div>
         </div>
