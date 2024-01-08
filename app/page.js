@@ -1,8 +1,5 @@
 "use client"
-import React, { useEffect, useState } from 'react';
-import { RecentPosts, Interduction, Zeltvermietung } from '@/components';
-import { getPosts } from '../services'
-import Link from 'next/link';
+import React, { useState } from 'react';
 
 export default function Home() {
   return (

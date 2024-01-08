@@ -9,7 +9,7 @@ function page() {
         <div className='relative shadow-md mb-4 rounded-t-lg rounded-b-lg'>
           <div className='items-center self-center m-auto'>
             <p className='text-center text-4xl'>Jahresprogramm 2024 Jungwacht St. Anton Wettingen</p>
-            <br/>
+            <br />
             <div className='p-4'>
               <table className='text-xl text-center rounded-t-lg w-full'>
                 <tr  >
@@ -28,7 +28,7 @@ function page() {
                   </td>
                 </tr>
               </table>
-              <br/>
+              <br />
               <table className='w-full border border-black'>
                 <tr className=' border border-black'>
                   <td className=' border border-black' >
@@ -55,7 +55,7 @@ function page() {
                   <td className='bg-green-400' >
                     Leitende, Ehemalige
                   </td>
-                  
+
                 </tr>
                 <tr>
                   <td className='bg-orange-400' >15.01.2024</td>
@@ -68,7 +68,7 @@ function page() {
                   <td className='bg-orange-400' >
                     Lalei
                   </td>
-                  
+
                 </tr>
                 <tr>
                   <td className='bg-blue-400' >
@@ -83,7 +83,7 @@ function page() {
                   <td className='bg-blue-400' >
                     Leitende
                   </td>
-                  
+
                 </tr>
                 <tr >
                   <td className='bg-blue-400' >
@@ -98,7 +98,7 @@ function page() {
                   <td className='bg-blue-400' >
                     Kinder
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-blue-400'  >
@@ -113,7 +113,7 @@ function page() {
                   <td className='bg-blue-400' >
                     Kinder (und Eltern)
                   </td>
-                  
+
                 </tr>
                 <tr >
                   <td className='bg-orange-400'>09.03.2024</td>
@@ -126,7 +126,7 @@ function page() {
                   <td className='bg-orange-400' >
                     Leitende
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-blue-400' >15.03.2024</td>
@@ -139,7 +139,7 @@ function page() {
                   <td className='bg-blue-400' >
                     Kinder, Eltern
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-blue-400' s>
@@ -154,7 +154,7 @@ function page() {
                   <td className='bg-blue-400' >
                     Kinder/Chilemensche
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-orange-400' >29.04.2024</td>
@@ -167,7 +167,7 @@ function page() {
                   <td className='bg-orange-400' >
                     Scharleitung
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-green-400' >27.04.2024</td>
@@ -180,7 +180,7 @@ function page() {
                   <td className='bg-green-400' >
                     Ehemalige
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-blue-400' s>
@@ -195,7 +195,7 @@ function page() {
                   <td className='bg-blue-400' >
                     Kinder, Eltern, Leitende, Scharen, Ehemalige
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-orange-400' >08.05.2024</td>
@@ -208,7 +208,7 @@ function page() {
                   <td className='bg-orange-400' >
                     Leitende
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-blue-400'  >
@@ -223,7 +223,7 @@ function page() {
                   <td className='bg-blue-400' >
                     Leitende
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-green-400' >25.05.2024</td>
@@ -236,7 +236,7 @@ function page() {
                   <td className='bg-green-400' >
                     Leitende
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-blue-400'  >
@@ -251,7 +251,7 @@ function page() {
                   <td className='bg-blue-400' >
                     Leitende
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-blue-400' >15.06.2024</td>
@@ -262,7 +262,7 @@ function page() {
                   <td className='bg-blue-400' >
                     Eltern, Kinder, Leiter, Ehemalige
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-blue-400' >29.06.2024</td>
@@ -275,7 +275,7 @@ function page() {
                   <td className='bg-blue-400' >
                     Leitende
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-blue-400' s>
@@ -290,7 +290,7 @@ function page() {
                   <td className='bg-blue-400' >
                     Kinder
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-blue-400'  >
@@ -305,7 +305,7 @@ function page() {
                   <td className='bg-blue-400' >
                     Ältere Leiter
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-blue-400' >09.09.2024</td>
@@ -318,7 +318,7 @@ function page() {
                   <td className='bg-blue-400' >
                     Kinder, Eltern, Ehemalige
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-blue-400' >21.09.2024</td>
@@ -331,7 +331,7 @@ function page() {
                   <td className='bg-blue-400' >
                     Kinder, Eltern, Ehemalige
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-orange-400' >14.10.2024</td>
@@ -344,7 +344,7 @@ function page() {
                   <td className='bg-orange-400' >
                     Scharleitung
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-blue-400' >26.10.2024</td>
@@ -355,7 +355,7 @@ function page() {
                   <td className='bg-blue-400' >
                     Leiter
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-green-400'  >
@@ -372,7 +372,7 @@ function page() {
                   <td className='bg-green-400' >
                     Leitende, 15er Team
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-orange-400' >16.11.2024</td>
@@ -385,7 +385,7 @@ function page() {
                   <td className='bg-orange-400' >
                     Leitende
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-blue-400' >23.11.2024</td>
@@ -398,7 +398,7 @@ function page() {
                   <td className='bg-blue-400' >
                     Kinder
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-blue-400' >05.12.2024</td>
@@ -411,7 +411,7 @@ function page() {
                   <td className='bg-blue-400' >
                     Leitende
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-blue-400' s>
@@ -426,7 +426,7 @@ function page() {
                   <td className='bg-blue-400' >
                     Leitende
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-orange-400'  >
@@ -441,7 +441,7 @@ function page() {
                   <td className='bg-orange-400' >
                     Leitende
                   </td>
-                  
+
                 </tr>
                 <tr  >
                   <td className='bg-green-400' >24.12.2024</td>
