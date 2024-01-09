@@ -32,6 +32,8 @@
     "yet-another-react-lightbox": "^3.15.6"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.4.1"
+    "@biomejs/biome": "1.4.1",
+    "prettier": "^3.1.1",
+    "prettier-plugin-tailwindcss": "^0.5.11"
   }
 }
