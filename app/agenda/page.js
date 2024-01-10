@@ -241,7 +241,7 @@ function page() {
             </div>
           </div>
         </div>
-        <div className=" box-content grid grid-cols-1 lg:grid-cols-2 h-30">
+        <div className=" box-content grid grid-cols-1 grid-cols-2 h-30">
           <div className="flex items-center justify-center">
             <CalendarSubscription />
           </div>

@@ -34,7 +34,7 @@ const CalendarSubscription = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className="w-5/6 text-4xl">
+    <div className="lg:w-5/6 text-4xl">
       <div
         className="flex lg:flex-row flex-col items-center justify-center py-9"
         onMouseLeave={() => setIsHovered(false)}
